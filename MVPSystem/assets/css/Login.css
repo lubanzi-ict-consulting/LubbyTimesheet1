@@ -1,0 +1,53 @@
+﻿body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+.card {
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    max-width: 50px; /* Adjust this value based on your design */
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    position: relative;
+    width: 100%;
+}
+
+.input-group-append {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    border: 1px solid #ced4da;
+    border-left: 0;
+}
+
+.btn-link {
+    padding: 0;
+    color: #007bff;
+    background-color: transparent;
+    border: 0;
+}
+
+.text-center p {
+    margin-bottom: 0;
+}
